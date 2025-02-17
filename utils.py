@@ -2,12 +2,17 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import streamlit as st
+from pathlib import Path
+
+# Configuration
+DATA_DIR = Path("data")
 
 # -------------------------------------------------------------------------
 # Data Loading & Preparation
 # -------------------------------------------------------------------------
 
 def load_data(gas_prices_path, population_path, volumes_path):
+    """Load data from CSV files."""
     df_gas = pd.read_csv(gas_prices_path)
     df_pop = pd.read_csv(population_path)
     df_vol = pd.read_csv(volumes_path)
@@ -1329,48 +1334,89 @@ def historical_volume_chart(df_volume):
     # Filter data based on selection
     df_plot = df_yoy if show_yoy else df_combined
     df_plot = df_plot[df_plot["EntidadFederativa"].isin(selected_states)]
-
-    # Format values for hover using the same format_volume logic
-    def format_volume(x, include_label=True):
+    
+    # Format values for hover
+    def format_volume(x):
         """Format volume in B or M with max 2 decimals"""
         if x >= 1e9:
-            val = f"{x/1e9:.2f}B".rstrip('0').rstrip('.')
-            return f"{val} liters" if include_label else val
-        val = f"{x/1e6:.2f}M".rstrip('0').rstrip('.')
-        return f"{val} liters" if include_label else val
-
-    df_plot["Formatted Value"] = df_plot.apply(
-        lambda x: (
-            f"{x['YoY Change']:+,.1f}%" if show_yoy else
-            format_volume(x['Volumen Vendido (litros)'])
-        ),
-        axis=1
-    )
-
-    fig = px.line(
-        df_plot,
-        x="Año",
-        y="YoY Change" if show_yoy else "Volumen Vendido (litros)",
-        color="EntidadFederativa",
-        custom_data=["Formatted Value"]
-    )
+            return f"{x/1e9:.2f}B liters"
+        return f"{x/1e6:.2f}M liters"
     
-    fig.update_layout(
-        xaxis_title="Year",
-        yaxis=dict(
-            title="Year-over-Year Change (%)" if show_yoy else "Volume (liters)",
-            tickformat="+.1f" if show_yoy else "~s",  # Use scientific notation for volume
-            hoverformat="+.1f" if show_yoy else "~s"
+    df_plot["Formatted Volume"] = df_plot["Volumen Vendido (litros)"].apply(format_volume)
+    
+    # Create the figure
+    if show_yoy:
+        fig = px.line(
+            df_plot,
+            x="Año",
+            y="YoY Change",
+            color="EntidadFederativa",
+            title="Year-over-Year Volume Change by State",
+            custom_data=["Formatted Volume"]
         )
-    )
+        
+        # Update layout for YoY view
+        fig.update_layout(
+            yaxis=dict(
+                title="Year-over-Year Change (%)",
+                tickformat=".1f",
+                hoverformat=".1f"
+            ),
+            xaxis_title="Year",
+            hovermode="x unified"
+        )
+        
+        # Add zero line for reference
+        fig.add_hline(y=0, line_dash="dash", line_color="gray")
+        
+        # Update hover template
+        fig.update_traces(
+            hovertemplate=(
+                "<b>%{x}</b><br>" +
+                "%{y:.1f}% change<br>" +
+                "Volume: %{customdata[0]}" +
+                "<extra>%{fullData.name}</extra>"
+            )
+        )
+    else:
+        fig = px.line(
+            df_plot,
+            x="Año",
+            y="Volumen Vendido (litros)",
+            color="EntidadFederativa",
+            title="Historical Volume by State",
+            custom_data=["Formatted Volume"]
+        )
+        
+        # Update layout for volume view
+        fig.update_layout(
+            yaxis=dict(
+                title="Volume (liters)",
+                tickformat="~s",
+                hoverformat="~s"
+            ),
+            xaxis_title="Year",
+            hovermode="x unified"
+        )
+        
+        # Update hover template
+        fig.update_traces(
+            hovertemplate=(
+                "<b>%{x}</b><br>" +
+                "Volume: %{customdata[0]}" +
+                "<extra>%{fullData.name}</extra>"
+            )
+        )
     
-    # Update hover template
-    fig.update_traces(
-        hovertemplate=(
-            "<b>%{x}</b><br>" +
-            "%{fullData.name}<br>" +
-            ("Change: %{customdata[0]}" if show_yoy else "Volume: %{customdata[0]}") +
-            "<extra></extra>"
+    # Common layout updates
+    fig.update_layout(
+        height=600,
+        showlegend=True,
+        legend=dict(
+            yanchor="top",
+            y=0.99,
+            xanchor="left",
+            x=0.01
         )
     )
     

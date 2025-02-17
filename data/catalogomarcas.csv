@@ -1,0 +1,98 @@
+Producto,ProductoId,SubProducto,SubProductoId,SubProductoMarca,SubProductoMarcaId,Fecha de actualización
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Magna PEMEX,1,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Premium PEMEX,2,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Diésel PEMEX,3,15/04/2019
+Diésel,3,Diésel de Ultra Bajo Azufre (DUBA) [contenido máximo de azufre de 15 mg/kg],62,Diésel PEMEX,3,15/04/2019
+Diésel,3,Diésel Agrícola/Marino,30,Diésel Marino PEMEX,4,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,ARCO-diésel,5,15/04/2019
+Diésel,3,Diésel de Ultra Bajo Azufre (DUBA) [contenido máximo de azufre de 15 mg/kg],62,ARCO-diésel,5,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,ARCO-premium,6,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,ARCO-regular,7,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,BP-diésel,8,15/04/2019
+Diésel,3,Diésel de Ultra Bajo Azufre (DUBA) [contenido máximo de azufre de 15 mg/kg],62,BP-diésel,8,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,BP-premium,9,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,BP-regular,10,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Chevron-regular,11,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Chevron-supreme,12,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,G-diésel,13,15/04/2019
+Diésel,3,Diésel de Ultra Bajo Azufre (DUBA) [contenido máximo de azufre de 15 mg/kg],62,G-diésel,13,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,G-Premium,14,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,G-super,15,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Gulf-premium,16,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Gulf-regular,17,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Kirkland-premium,18,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Kirkland-super,19,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Shell V-power,20,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Shell-super,21,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Mobil Synergy Extra,22,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Mobil Synergy Diésel,23,15/04/2019
+Diésel,3,Diésel de Ultra Bajo Azufre (DUBA) [contenido máximo de azufre de 15 mg/kg],62,Mobil Synergy Diésel,23,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Mobil Synergy Supreme+,24,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Diésel Automotriz Sin Marca,25,15/04/2019
+Diésel,3,Diésel Agrícola/Marino,30,Diésel Marino Sin Marca,26,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Regular Sin Marca con índice de octano mínimo de 87,27,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Premium Sin Marca con índice de octano mínimo de 91,28,15/04/2019
+Diésel,3,Diésel de Ultra Bajo Azufre (DUBA) [contenido máximo de azufre de 15 mg/kg],62,Diésel Ultra Bajo Azufre (DUBA) Sin marca,29,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Gaxo-diésel,30,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Gaxo-regular,31,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Gaxo-ultra,32,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Gulf-diésel,33,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Sunoco-diésel,34,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Repsol-diésel e+,35,15/04/2019
+Diésel,3,Diésel de Ultra Bajo Azufre (DUBA) [contenido máximo de azufre de 15 mg/kg],62,Repsol-diésel e+,35,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Repsol-efitec 87,37,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Sunoco-regular,38,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Total-advanced,39,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,O Plus regular,40,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Sunoco-ultra,41,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Total-excellium,42,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Repsol-efitec 91,43,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,O Plus ultra,44,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,O Plus diésel,45,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Comborsa-diésel,46,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Comborsa-regular,47,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Comborsa-premium,48,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Diésel con Techpro,49,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Chevron-diésel,50,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Shell-diésel,51,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Black Gold-diésel,52,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Regular con Techpro,53,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Black Gold-Super,54,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,F Plus,55,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Black Gold-Plus,56,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,F Super,57,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Plus con Techpro,58,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,GGR-diésel,59,15/04/2019
+Diésel,3,Diésel de Ultra Bajo Azufre (DUBA) [contenido máximo de azufre de 15 mg/kg],62,GGR-ulsd,60,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,GGR-regular,61,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,GGR-optima,62,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Repsol-efitec 92,63,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,A-diésel,64,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,A-regular,65,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,A-súper,66,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Primero-Diésel,67,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Primero-Plus,68,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Primero-Premium,69,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Diesel Power Supreme,70,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Diesel windstar,71,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Power Plus,72,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Gasolina Regular Windstar,73,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Power Supreme,74,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Gasolina Premium Windstar,75,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Masterfuel Diesel,76,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Diesel Max Carroil,77,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Masterfuel Regular,78,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Ultra Blue Carroil,79,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Súper Orange Carroil,80,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Masterfuel Premium,81,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,Free Energy Diésel,82,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,RedCo diésel,83,15/04/2019
+Diésel,3,Diésel Automotriz [contenido mayor de azufre a 15 mg/kg y contenido máximo de azufre de 500 mg/kg],16,ENER FORCE,84,15/04/2019
+Diésel,3,Diésel de Ultra Bajo Azufre (DUBA) [contenido máximo de azufre de 15 mg/kg],62,Valero-Diésel,85,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Free Energy Regular Automotriz,86,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,RedCo verde,87,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,ECO ENER,88,15/04/2019
+Gasolina,7,Regular (con un índice de octano ([RON+MON]/2) mínimo de 87),13,Valero-regular,89,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Valero-Premium,90,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,Free Energy Plus Automotriz,91,15/04/2019
+Gasolina,7,Premium (con un índice de octano ([RON+MON]/2) mínimo de 91),14,ENER ADVANCE,92,15/04/2019
